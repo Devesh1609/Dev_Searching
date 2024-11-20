@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Girlfriend Registration Form</title>
+    <style>
+        /* General body styling */
+        body {
+            background-image: url('snow.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            font-family: Arial, sans-serif;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Form container */
+        form {
+            background: rgba(0, 0, 0, 0.7);
+            margin: 50px auto;
+            padding: 20px;
+            max-width: 400px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+
+        /* Form title */
+        h1 {
+            color: #ffdab9;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        /* Label styling */
+        label {
+            display: block;
+            margin: 10px 0 5px;
+            color: #ffdab9;
+        }
+
+        /* Input fields */
+        input[type="text"],
+        input[type="password"],
+        input[type="date"],
+        select {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: none;
+            border-radius: 5px;
+            background: #fff;
+            color: #000;
+        }
+
+        /* Checkboxes and radio buttons */
+        input[type="checkbox"],
+        input[type="radio"] {
+            margin-right: 10px;
+        }
+
+        /* Buttons */
+        input[type="button"],
+        button {
+            width: 48%;
+            padding: 10px;
+            margin: 5px 1%;
+            border: none;
+            border-radius: 5px;
+            background: #ffdab9;
+            color: #000;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        input[type="button"]:hover,
+        button:hover {
+            background: #ffa07a;
+        }
+
+        /* Marquee disclaimer */
+        footer marquee {
+            color: #250bd3;
+            background: yellow;
+            padding: 10px;
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+        /* General paragraph styling */
+        p {
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="BABU Registration Form">
+        <h1>Girlfriend Registration Form</h1>
+        <label for="fname">First Name:</label>
+        <input type="text" name="fname" id="name" placeholder="Aapka naam bht pyaara h">
+
+        <label for="lname">Last Name:</label>
+        <input type="text" name="lname" id="lname" placeholder="Last name bhi bht pyaara h">
+
+        <label for="pass">Mobile No.:</label>
+        <input type="password" name="pass" id="pass" placeholder="Enter mobile number">
+
+        <label for="wish">Tell Your Wish:</label>
+        <input type="password" name="wish" id="wish" placeholder="Your secret wish">
+
+        <label for="DOB">Date of Birth:</label>
+        <input type="date" name="DOB" id="DOB">
+
+        <p>Common Hobbies:</p>
+        <input type="checkbox" name="hobbies" id="club">
+        <label for="club">Club</label>
+        <input type="checkbox" name="hobbies" id="cafe">
+        <label for="cafe">Cafe</label>
+        <input type="checkbox" name="hobbies" id="street-food">
+        <label for="street-food">Street Food</label>
+        <input type="checkbox" name="hobbies" id="bakchodi">
+        <label for="bakchodi">Bakchodi</label>
+
+        <label for="gifts">Preferred Gift:</label>
+        <select name="gifts" id="gifts">
+            <option value="teddy">Teddy</option>
+            <option value="doll">Doll</option>
+            <option value="bills">Bills</option>
+        </select>
+
+        <p>Are you ready?</p>
+        <input type="radio" name="ready" id="yes">
+        <label for="yes">Yes</label>
+        <input type="radio" name="ready" id="ha">
+        <label for="ha">Ha</label>
+
+        <div>
+            <input type="button" value="Submit">
+            <button type="reset">Reset</button>
+        </div>
+    </form>
+
+    <footer>
+        <marquee>Disclaimer: Under Age not allowed</marquee>
+    </footer>
+</body>
+
+</html>
